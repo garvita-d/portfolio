@@ -16,15 +16,19 @@ export default function Certifications() {
               className={styles.card}
             >
               <div className={styles.cardLeft}>
-                <span className={styles.icon}>🎓</span>
+                <span className={styles.icon} aria-hidden="true">
+                  🎓
+                </span>
                 <div>
                   <p className={styles.name}>{cert.name}</p>
                   <p className={styles.issuer}>
-                    {cert.issuer} · {cert.year}
+                    {cert.issuer} &middot; {cert.year}
                   </p>
                 </div>
               </div>
-              <span className={styles.arrow}>↗</span>
+              <span className={styles.arrow} aria-hidden="true">
+                ↗
+              </span>
             </a>
           ))}
         </div>

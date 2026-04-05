@@ -72,9 +72,6 @@
   gap: 1rem;
 }
 
-.caseBlock {
-}
-
 .caseLabel {
   font-size: 0.7rem;
   font-weight: 500;
@@ -129,10 +126,6 @@
 .ghBtn:hover {
   border-color: var(--text-muted);
   color: var(--text);
-}
-
-/* Browser mockup */
-.featuredImage {
 }
 
 .browserChrome {

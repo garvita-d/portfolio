@@ -1,4 +1,85 @@
-export const data = {
+// ─── Types ───────────────────────────────────────────────────────────────────
+
+interface ExperienceEntry {
+  company: string;
+  role: string;
+  period: string;
+  location: string;
+  highlights: string[];
+}
+
+interface CaseStudy {
+  problem: string;
+  solution: string;
+  result: string;
+}
+
+interface Project {
+  name: string;
+  period: string;
+  stack: string[];
+  github: string;
+  live: string;
+  image: string;
+  featured: boolean;
+  caseStudy: CaseStudy | null;
+  highlights: string[];
+}
+
+interface Certification {
+  name: string;
+  issuer: string;
+  url: string;
+  year: string;
+}
+
+interface LeadershipEntry {
+  role: string;
+  org: string;
+  period: string;
+  highlights: string[];
+}
+
+interface Education {
+  institution: string;
+  location: string;
+  degree: string;
+  period: string;
+  cgpa: string;
+}
+
+interface GitHubStatsData {
+  username: string;
+  streakUrl: string;
+  statsUrl: string;
+}
+
+interface Data {
+  name: string;
+  title: string;
+  tagline: string;
+  email: string;
+  phone: string;
+  linkedin: string;
+  github: string;
+  photo: string;
+  resumeUrl: string;
+  currentlyWorkingOn: string;
+  about: string;
+  githubStats: GitHubStatsData;
+  experience: ExperienceEntry[];
+  projects: Project[];
+  skills: Record<string, string[]>;
+  certifications: Certification[];
+  coursework: string[];
+  leadership: LeadershipEntry[];
+  education: Education;
+  interests: string[];
+}
+
+// ─── Data ────────────────────────────────────────────────────────────────────
+
+export const data: Data = {
   name: "Garvita Dalmia",
   title: "Frontend Developer",
   tagline:
@@ -188,7 +269,7 @@ export const data = {
     {
       role: "Media & Content Officer",
       org: "Mahindra Alumni Relations Center",
-      period: "2024 – January 2026",
+      period: "2024 – Present",
       highlights: [
         "Managed official social media platforms and increased engagement by 30% through targeted content strategies.",
         "Led visual content creation including posters and digital campaigns for alumni events.",

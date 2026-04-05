@@ -5,8 +5,7 @@ export default function Leadership() {
   return (
     <section className={styles.section} id="leadership">
       <div className={styles.inner}>
-        <h2 className={styles.heading}>Leadership & Initiatives</h2>
-
+        <h2 className={styles.heading}>Leadership &amp; Initiatives</h2>
         <div className={styles.grid}>
           {data.leadership.map((item, i) => (
             <article key={i} className={styles.card}>
@@ -20,7 +19,7 @@ export default function Leadership() {
               <ul className={styles.highlights}>
                 {item.highlights.map((h, j) => (
                   <li key={j} className={styles.highlight}>
-                    <span className={styles.dot} aria-hidden />
+                    <span className={styles.dot} aria-hidden="true" />
                     {h}
                   </li>
                 ))}
