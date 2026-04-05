@@ -5,7 +5,9 @@
   right: 0;
   z-index: 100;
   padding: 0 2rem;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .scrolled {
@@ -21,6 +23,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  z-index: 101;
 }
 
 .logo {
@@ -49,7 +53,9 @@
   cursor: pointer;
   padding: 0.4rem 0.8rem;
   border-radius: var(--radius-sm);
-  transition: color var(--transition), background var(--transition);
+  transition:
+    color var(--transition),
+    background var(--transition);
 }
 
 .link:hover {
@@ -65,7 +71,9 @@
   padding: 0.35rem 1rem;
   border-radius: 999px;
   margin-left: 0.5rem;
-  transition: background var(--transition), color var(--transition);
+  transition:
+    background var(--transition),
+    color var(--transition);
   font-family: var(--font-body);
 }
 
@@ -82,6 +90,8 @@
   border: none;
   cursor: pointer;
   padding: 4px;
+  position: relative;
+  z-index: 102;
 }
 
 .bar {
@@ -89,38 +99,81 @@
   width: 22px;
   height: 1.5px;
   background: var(--text);
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
   transform-origin: center;
 }
 
-.barOpen1 { transform: translateY(6.5px) rotate(45deg); }
-.barOpen2 { opacity: 0; }
-.barOpen3 { transform: translateY(-6.5px) rotate(-45deg); }
+.barOpen1 {
+  transform: translateY(6.5px) rotate(45deg);
+}
+.barOpen2 {
+  opacity: 0;
+}
+.barOpen3 {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
 
 @media (max-width: 640px) {
-  .hamburger { display: flex; }
+  .header {
+    padding: 0 1.25rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 
   .links {
     position: fixed;
-    inset: 64px 0 0 0;
-    background: rgba(249, 247, 244, 0.97);
-    backdrop-filter: blur(12px);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(249, 247, 244, 0.98);
+    backdrop-filter: blur(16px);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
-    transform: translateY(-100%);
+    gap: 0.5rem;
+    transform: translateX(100%);
     opacity: 0;
     pointer-events: none;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease;
+    z-index: 99;
+    padding: 0;
+    margin: 0;
   }
 
   .open {
-    transform: translateY(0);
+    transform: translateX(0);
     opacity: 1;
     pointer-events: all;
   }
 
-  .link { font-size: 1.1rem; }
-  .cta { font-size: 1rem; margin-left: 0; }
+  .link {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.75rem 2rem;
+    width: 100%;
+    text-align: center;
+    color: var(--text);
+    border-radius: 0;
+  }
+
+  .link:hover {
+    background: var(--accent-light);
+    color: var(--accent);
+  }
+
+  .cta {
+    font-size: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 0.6rem 2rem;
+  }
 }
