@@ -43,7 +43,7 @@ export const data = {
         "Delivered 6+ features across 2 production codebases (Next.js, TypeScript) — dark/light mode, About Us page, blog integration, footer redesign from Figma.",
         "Achieved 100/100 PageSpeed score across all Core Web Vitals by eliminating render-blocking resources and optimizing for Vercel deployment.",
         "Implemented full SEO infrastructure (robots.txt, llms.txt, sitemap.xml, RSS feeds, Open Graph, meta descriptions) and set up n8n automation, reducing manual effort by ~60%.",
-        "Analysed Google Analytics and evaluated Plausible Analytics for a client project (Tesseract); documented pagespeed audit findings approved by client.",
+        "Followed professional Git workflows: feature branching, PR creation with screen-recorded demos, and async collaboration via Discord.",
       ],
     },
   ],
@@ -62,7 +62,6 @@ export const data = {
       ],
       github: "https://github.com/garvita-d/finance-dashboard",
       live: "https://finance-dashboard-one-neon.vercel.app",
-      // Add a real screenshot: put the image in /public/ and update this path
       image: "/screenshots/inflow.png",
       featured: true,
       caseStudy: {
@@ -116,23 +115,45 @@ export const data = {
   ],
 
   skills: {
-    Languages: ["JavaScript (ES6+)", "TypeScript", "Python", "Java", "SQL"],
+    Languages: [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Python",
+      "Java",
+      "C",
+      "SQL",
+    ],
     Frontend: [
       "React.js",
       "Next.js",
       "HTML5",
       "CSS3",
+      "Tailwind CSS",
       "SCSS Modules",
       "Ant Design",
       "Vite",
     ],
     "State & Data": [
       "Zustand",
-      "React Query",
+      "TanStack React Query",
       "Supabase (PostgreSQL)",
       "REST APIs",
     ],
-    Visualization: ["Recharts", "Responsive Dashboards", "Custom Tooltips"],
+    "Visualization & ML": [
+      "Recharts",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Matplotlib",
+    ],
+    "Performance & SEO": [
+      "Core Web Vitals",
+      "PageSpeed Optimization",
+      "Open Graph",
+      "Sanity CMS",
+      "sitemap.xml",
+      "llms.txt",
+    ],
     Tools: [
       "Git",
       "GitHub",
@@ -143,14 +164,46 @@ export const data = {
       "n8n",
       "Google Analytics",
     ],
-    "Performance & SEO": [
-      "Core Web Vitals",
-      "PageSpeed Optimization",
-      "Open Graph",
-      "sitemap.xml",
-      "llms.txt",
-    ],
   },
+
+  certifications: [
+    {
+      name: "Full-Stack Web Development Bootcamp",
+      issuer: "Udemy",
+      url: "https://www.udemy.com/certificate/UC-7601deee-029f-4e13-bc27-4e3d4d635f59/",
+      year: "2024",
+    },
+  ],
+
+  coursework: [
+    "Object-Oriented Programming",
+    "Data Structures & Algorithms",
+    "Operating Systems",
+    "Database Management Systems",
+    "Software Engineering",
+    "Machine Learning",
+  ],
+
+  leadership: [
+    {
+      role: "Media & Content Officer",
+      org: "Mahindra Alumni Relations Center",
+      period: "2024 – January 2026",
+      highlights: [
+        "Managed official social media platforms and increased engagement by 30% through targeted content strategies.",
+        "Led visual content creation including posters and digital campaigns for alumni events.",
+      ],
+    },
+    {
+      role: "Student Ambassador",
+      org: "Mahindra University",
+      period: "2023 – Oct 2025",
+      highlights: [
+        "Guided prospective students and parents through the Univiser platform with personalized campus information.",
+        "Recognized among Top 3 Ambassadors university-wide for 2024–2025.",
+      ],
+    },
+  ],
 
   education: {
     institution: "Mahindra University",
