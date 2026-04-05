@@ -13,14 +13,13 @@ export const data = {
   currentlyWorkingOn:
     "Real-time analytics dashboard @ Analytics Quad4 — live booking data, Recharts, React",
 
-  about: `I'm a Computer Science student at Mahindra University, Hyderabad, with hands-on experience building production-grade web applications. I care deeply about performance, clean code, and pixel-perfect UIs — from achieving 100/100 PageSpeed scores to building real-time analytics dashboards that reduced client reporting time by 40%.`,
+  about: `I'm a final year Computer Science student at Mahindra University, Hyderabad, with hands-on experience building production-grade web applications. I care deeply about performance, clean code, and pixel-perfect UIs — from achieving 100/100 PageSpeed scores to building real-time analytics dashboards that reduced client reporting time by 40%.`,
 
   githubStats: {
     username: "garvita-d",
     streakUrl:
       "https://streak-stats.demolab.com?user=garvita-d&theme=transparent&hide_border=true&ring=c85a2e&fire=c85a2e&currStreakLabel=c85a2e",
-    statsUrl:
-      "https://github-readme-stats.vercel.app/api?username=garvita-d&show_icons=true&theme=transparent&hide_border=true&title_color=c85a2e&icon_color=c85a2e&text_color=6b6860",
+    statsUrl: "https://ghchart.rshah.org/c85a2e/garvita-d",
   },
 
   experience: [

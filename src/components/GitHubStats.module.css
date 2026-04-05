@@ -28,7 +28,9 @@
   transition: opacity 0.2s;
 }
 
-.profileLink:hover { opacity: 0.75; }
+.profileLink:hover {
+  opacity: 0.75;
+}
 
 .cards {
   display: grid;
@@ -53,5 +55,37 @@
 }
 
 @media (max-width: 640px) {
-  .cards { grid-template-columns: 1fr; }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+.statNumbers {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-content: center;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.statNum {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }

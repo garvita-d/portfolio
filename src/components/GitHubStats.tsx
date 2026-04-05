@@ -33,12 +33,23 @@ export default function GitHubStats() {
               className={styles.statImg}
             />
           </div>
-          <div className={styles.imgCard}>
-            <img
-              src={data.githubStats.statsUrl}
-              alt="GitHub stats"
-              className={styles.statImg}
-            />
+          <div className={styles.statNumbers}>
+            <div className={styles.statItem}>
+              <span className={styles.statNum}>24</span>
+              <span className={styles.statLabel}>Repositories</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statNum}>355</span>
+              <span className={styles.statLabel}>Contributions</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statNum}>9</span>
+              <span className={styles.statLabel}>Longest streak</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statNum}>3</span>
+              <span className={styles.statLabel}>Achievements</span>
+            </div>
           </div>
         </div>
       </div>
