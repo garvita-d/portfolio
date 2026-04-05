@@ -1,0 +1,17 @@
+# Garvita Dalmia — Frontend Developer
+
+Frontend Developer specializing in React, Next.js, and TypeScript. B.Tech CSE student at Mahindra University, Hyderabad.
+
+## Experience
+- Analytics Quad4 (Feb 2026–Present): Real-time analytics dashboards, React, Recharts, Ant Design
+- What Next Studio (Nov 2025–Jan 2026): Next.js, TypeScript, 100/100 PageSpeed, full SEO infrastructure
+
+## Projects
+- inFlow Financial Dashboard: React, Supabase, Zustand, TanStack Query
+- Dalmia Hardware Website: Next.js, TypeScript, Google Analytics (live: dalmiahardware.com)
+- Medicine Reminder PWA: React, Web Notifications API, Google Calendar API
+
+## Contact
+Email: garvitadalmia2004@gmail.com
+GitHub: https://github.com/garvita-d
+LinkedIn: https://linkedin.com/in/garvita-dalmia

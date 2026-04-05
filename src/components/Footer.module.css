@@ -1,0 +1,68 @@
+.footer {
+  background: var(--text);
+  color: var(--bg);
+  padding: 5rem 2rem 3rem;
+}
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cta {
+  margin-bottom: 4rem;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  color: #f9f7f4;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.email {
+  font-size: 1rem;
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 0.1rem;
+  transition: opacity 0.2s ease;
+  font-family: var(--font-body);
+}
+
+.email:hover {
+  opacity: 0.75;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(249, 247, 244, 0.15);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copy {
+  font-size: 0.8rem;
+  color: rgba(249, 247, 244, 0.4);
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  font-size: 0.85rem;
+  color: rgba(249, 247, 244, 0.6);
+  transition: color 0.2s ease;
+  font-family: var(--font-body);
+}
+
+.link:hover {
+  color: #f9f7f4;
+}

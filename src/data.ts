@@ -1,0 +1,165 @@
+export const data = {
+  name: "Garvita Dalmia",
+  title: "Frontend Developer",
+  tagline:
+    "Specializing in scalable, high-performance web applications using React, Next.js, and TypeScript.",
+  email: "garvitadalmia2004@gmail.com",
+  phone: "+91 9550195466",
+  linkedin: "https://linkedin.com/in/garvita-dalmia",
+  github: "https://github.com/garvita-d",
+  photo: "/photo.jpeg",
+  resumeUrl: "/GARVITA DALMIA RESUME.pdf",
+
+  currentlyWorkingOn:
+    "Real-time analytics dashboard @ Analytics Quad4 — live booking data, Recharts, React",
+
+  about: `I'm a Computer Science student at Mahindra University, Hyderabad, with hands-on experience building production-grade web applications. I care deeply about performance, clean code, and pixel-perfect UIs — from achieving 100/100 PageSpeed scores to building real-time analytics dashboards that reduced client reporting time by 40%.`,
+
+  githubStats: {
+    username: "garvita-d",
+    streakUrl:
+      "https://streak-stats.demolab.com?user=garvita-d&theme=transparent&hide_border=true&ring=c85a2e&fire=c85a2e&currStreakLabel=c85a2e",
+    statsUrl:
+      "https://github-readme-stats.vercel.app/api?username=garvita-d&show_icons=true&theme=transparent&hide_border=true&title_color=c85a2e&icon_color=c85a2e&text_color=6b6860",
+  },
+
+  experience: [
+    {
+      company: "Analytics Quad4",
+      role: "Frontend Developer Intern",
+      period: "Feb 2026 – Present",
+      location: "Bangalore, India (In-office)",
+      highlights: [
+        "Engineered real-time analytics dashboard processing live booking data, reducing client reporting time by ~40% using React, Ant Design, Recharts, and dayjs.",
+        "Built 6+ interactive data visualizations (revenue segmentation, booking trends), optimizing with useMemo and reducing re-renders by ~30%.",
+        "Converted Figma designs into responsive, pixel-accurate UI using React hooks and reusable components.",
+      ],
+    },
+    {
+      company: "What Next Studio",
+      role: "Frontend Developer Intern",
+      period: "Nov 2025 – Jan 2026",
+      location: "Hyderabad, India (Remote)",
+      highlights: [
+        "Delivered 6+ features across 2 production codebases (Next.js, TypeScript) — dark/light mode, About Us page, blog integration, footer redesign from Figma.",
+        "Achieved 100/100 PageSpeed score across all Core Web Vitals by eliminating render-blocking resources and optimizing for Vercel deployment.",
+        "Implemented full SEO infrastructure (robots.txt, llms.txt, sitemap.xml, RSS feeds, Open Graph, meta descriptions) and set up n8n automation, reducing manual effort by ~60%.",
+        "Analysed Google Analytics and evaluated Plausible Analytics for a client project (Tesseract); documented pagespeed audit findings approved by client.",
+      ],
+    },
+  ],
+
+  projects: [
+    {
+      name: "inFlow – Financial Dashboard",
+      period: "March – April 2026",
+      stack: [
+        "React",
+        "Ant Design",
+        "Recharts",
+        "Supabase",
+        "Zustand",
+        "TanStack Query",
+      ],
+      github: "https://github.com/garvita-d/finance-dashboard",
+      live: "https://finance-dashboard-one-neon.vercel.app",
+      // Add a real screenshot: put the image in /public/ and update this path
+      image: "/screenshots/inflow.png",
+      featured: true,
+      caseStudy: {
+        problem:
+          "Needed a personal finance tool that was actually pleasant to use — most apps feel cluttered or require a backend to manage.",
+        solution:
+          "Built a full-stack dashboard using Supabase as a zero-backend BaaS: auth, PostgreSQL, and Row Level Security keep each user's data completely isolated without writing a single server function.",
+        result:
+          "Clean, responsive UI with dark/light mode, Recharts visualisations, and CSV export — deployed on Vercel in under a minute.",
+      },
+      highlights: [
+        "Full-stack finance dashboard with Supabase Auth and Row Level Security ensuring per-user data isolation — zero custom backend code.",
+        "Responsive UI with SCSS Modules, mobile bottom navigation, and system-aware dark/light theming via CSS custom properties.",
+        "Integrated Recharts with custom tooltips; TanStack React Query for server state, Zustand for global state.",
+      ],
+    },
+    {
+      name: "Dalmia Hardware — Live Business Website",
+      period: "Dec 2025 – Jan 2026",
+      stack: ["Next.js", "React", "TypeScript", "Google Analytics", "SEO"],
+      github: "",
+      live: "https://dalmiahardware.com",
+      image: "/screenshots/dalmia.png",
+      featured: false,
+      caseStudy: null,
+      highlights: [
+        "Built and deployed a production business website with dynamic product listings and full SEO strategy.",
+        "Integrated Google Analytics and meta tag automation, achieving measurable improvements in traffic tracking.",
+      ],
+    },
+    {
+      name: "Medicine Reminder PWA",
+      period: "June – Aug 2025",
+      stack: [
+        "React",
+        "JavaScript ES6+",
+        "CSS3",
+        "Web Notifications API",
+        "Google Calendar API",
+      ],
+      github: "https://github.com/garvita-d/medicines-tracker",
+      live: "",
+      image: "/screenshots/medicines.png",
+      featured: false,
+      caseStudy: null,
+      highlights: [
+        "PWA managing 12+ daily medications for 2 users with inventory alerts, voice assistant integration, and offline support.",
+        "Deployed on Netlify with cross-device accessibility and Google Calendar sync.",
+      ],
+    },
+  ],
+
+  skills: {
+    Languages: ["JavaScript (ES6+)", "TypeScript", "Python", "Java", "SQL"],
+    Frontend: [
+      "React.js",
+      "Next.js",
+      "HTML5",
+      "CSS3",
+      "SCSS Modules",
+      "Ant Design",
+      "Vite",
+    ],
+    "State & Data": [
+      "Zustand",
+      "React Query",
+      "Supabase (PostgreSQL)",
+      "REST APIs",
+    ],
+    Visualization: ["Recharts", "Responsive Dashboards", "Custom Tooltips"],
+    Tools: [
+      "Git",
+      "GitHub",
+      "Vercel",
+      "Netlify",
+      "Postman",
+      "VS Code",
+      "n8n",
+      "Google Analytics",
+    ],
+    "Performance & SEO": [
+      "Core Web Vitals",
+      "PageSpeed Optimization",
+      "Open Graph",
+      "sitemap.xml",
+      "llms.txt",
+    ],
+  },
+
+  education: {
+    institution: "Mahindra University",
+    location: "Hyderabad, Telangana",
+    degree: "B.Tech in Computer Science and Engineering",
+    period: "Sept 2022 – Present",
+    cgpa: "7.4 / 10 (till 7th semester)",
+  },
+
+  interests: ["Painting", "Badminton", "Movies"],
+};
