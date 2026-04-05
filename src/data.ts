@@ -92,7 +92,7 @@ export const data: Data = {
   resumeUrl: "/GARVITA DALMIA RESUME.pdf",
 
   currentlyWorkingOn:
-    "Real-time analytics dashboard @ Analytics Quad4 — live booking data, Recharts, React",
+    "Frontend Intern @ Analytics Quad4 — AntD styling, Recharts, React",
 
   about: `I'm a final year Computer Science student at Mahindra University, Hyderabad, with hands-on experience building production-grade web applications. I care deeply about performance, clean code, and pixel-perfect UIs — from achieving 100/100 PageSpeed scores to building real-time analytics dashboards that reduced client reporting time by 40%.`,
 
@@ -252,7 +252,7 @@ export const data: Data = {
       name: "Full-Stack Web Development Bootcamp",
       issuer: "Udemy",
       url: "https://www.udemy.com/certificate/UC-7601deee-029f-4e13-bc27-4e3d4d635f59/",
-      year: "2024",
+      year: "2025",
     },
   ],
 
