@@ -97,7 +97,7 @@ export default function Projects() {
           </article>
         )}
 
-        {/* Other projects */}
+        {/* Other projects — now with case study */}
         <div className={styles.grid}>
           {rest.map((p, i) => (
             <article key={i} className={styles.card}>
@@ -156,14 +156,24 @@ export default function Projects() {
                 </div>
               </div>
 
-              <ul className={styles.highlights}>
-                {p.highlights.map((h, j) => (
-                  <li key={j} className={styles.highlight}>
-                    <span className={styles.dot} aria-hidden />
-                    {h}
-                  </li>
-                ))}
-              </ul>
+              {p.caseStudy && (
+                <div className={styles.cardCaseStudy}>
+                  <div className={styles.caseBlock}>
+                    <span className={styles.cardCaseLabel}>Problem</span>
+                    <p className={styles.cardCaseText}>{p.caseStudy.problem}</p>
+                  </div>
+                  <div className={styles.caseBlock}>
+                    <span className={styles.cardCaseLabel}>Solution</span>
+                    <p className={styles.cardCaseText}>
+                      {p.caseStudy.solution}
+                    </p>
+                  </div>
+                  <div className={styles.caseBlock}>
+                    <span className={styles.cardCaseLabel}>Result</span>
+                    <p className={styles.cardCaseText}>{p.caseStudy.result}</p>
+                  </div>
+                </div>
+              )}
 
               <div className={styles.stack}>
                 {p.stack.map((s, j) => (

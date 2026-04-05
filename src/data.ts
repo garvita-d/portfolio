@@ -167,7 +167,14 @@ export const data: Data = {
       live: "https://dalmiahardware.com",
       image: "/screenshots/dalmia.png",
       featured: false,
-      caseStudy: null,
+      caseStudy: {
+        problem:
+          "A family-owned hardware store had no online presence — customers couldn't browse products, check prices, or find the shop without calling directly.",
+        solution:
+          "Built a production Next.js website from scratch with dynamic product listings, a full SEO stack (sitemap.xml, Open Graph, meta descriptions), and Google Analytics — sole developer with end-to-end ownership.",
+        result:
+          "Live at dalmiahardware.com with measurable traffic tracking in place, giving the business a professional storefront that works around the clock.",
+      },
       highlights: [
         "Built and deployed a production business website with dynamic product listings and full SEO strategy.",
         "Integrated Google Analytics and meta tag automation, achieving measurable improvements in traffic tracking.",
@@ -187,7 +194,14 @@ export const data: Data = {
       live: "",
       image: "/screenshots/medicines.png",
       featured: false,
-      caseStudy: null,
+      caseStudy: {
+        problem:
+          "My parents manage 12+ medications daily across multiple time slots — missed doses were a real risk and paper charts kept getting lost or ignored.",
+        solution:
+          "Built a PWA with per-medication schedules, browser push notifications via the Web Notifications API, Google Calendar sync for automated reminders, and predictive low-stock alerts so they never run out unexpectedly.",
+        result:
+          "Zero missed doses since deployment. Installed on both parents' phones via Netlify — works offline, no app store needed, and the voice assistant makes it accessible even without glasses.",
+      },
       highlights: [
         "PWA managing 12+ daily medications for 2 users with inventory alerts, voice assistant integration, and offline support.",
         "Deployed on Netlify with cross-device accessibility and Google Calendar sync.",
