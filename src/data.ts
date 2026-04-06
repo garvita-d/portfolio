@@ -1,5 +1,3 @@
-// ─── Types ───────────────────────────────────────────────────────────────────
-
 interface ExperienceEntry {
   company: string;
   role: string;
@@ -77,8 +75,6 @@ interface Data {
   interests: string[];
 }
 
-// ─── Data ────────────────────────────────────────────────────────────────────
-
 export const data: Data = {
   name: "Garvita Dalmia",
   title: "Frontend Developer",
@@ -144,7 +140,7 @@ export const data: Data = {
       github: "https://github.com/garvita-d/finance-dashboard",
       live: "https://finance-dashboard-one-neon.vercel.app",
       image: "/screenshots/inflow.png",
-      featured: true,
+      featured: false,
       caseStudy: {
         problem:
           "Needed a personal finance tool that was actually pleasant to use — most apps feel cluttered or require a backend to manage.",
@@ -153,11 +149,7 @@ export const data: Data = {
         result:
           "Clean, responsive UI with dark/light mode, Recharts visualisations, and CSV export — deployed on Vercel in under a minute.",
       },
-      highlights: [
-        "Full-stack finance dashboard with Supabase Auth and Row Level Security ensuring per-user data isolation — zero custom backend code.",
-        "Responsive UI with SCSS Modules, mobile bottom navigation, and system-aware dark/light theming via CSS custom properties.",
-        "Integrated Recharts with custom tooltips; TanStack React Query for server state, Zustand for global state.",
-      ],
+      highlights: [],
     },
     {
       name: "Dalmia Hardware — Live Business Website",
@@ -175,10 +167,7 @@ export const data: Data = {
         result:
           "Live at dalmiahardware.com with measurable traffic tracking in place, giving the business a professional storefront that works around the clock.",
       },
-      highlights: [
-        "Built and deployed a production business website with dynamic product listings and full SEO strategy.",
-        "Integrated Google Analytics and meta tag automation, achieving measurable improvements in traffic tracking.",
-      ],
+      highlights: [],
     },
     {
       name: "Medicine Reminder PWA",
@@ -191,21 +180,18 @@ export const data: Data = {
         "Google Calendar API",
       ],
       github: "https://github.com/garvita-d/medicines-tracker",
-      live: "",
+      live: "https://stately-kashata-5a6a78.netlify.app/",
       image: "/screenshots/medicines.png",
       featured: false,
       caseStudy: {
         problem:
           "My parents manage 12+ medications daily across multiple time slots — missed doses were a real risk and paper charts kept getting lost or ignored.",
         solution:
-          "Built a PWA with per-medication schedules, browser push notifications via the Web Notifications API, Google Calendar sync for automated reminders, and predictive low-stock alerts so they never run out unexpectedly.",
+          "Built a PWA with per-medication schedules, browser push notifications via the Web Notifications API, Google Calendar sync for automated reminders, and predictive low-stock alerts.",
         result:
-          "Zero missed doses since deployment. Installed on both parents' phones via Netlify — works offline, no app store needed, and the voice assistant makes it accessible even without glasses.",
+          "Zero missed doses since deployment. Installed on both parents' phones via Netlify — works offline, no app store needed.",
       },
-      highlights: [
-        "PWA managing 12+ daily medications for 2 users with inventory alerts, voice assistant integration, and offline support.",
-        "Deployed on Netlify with cross-device accessibility and Google Calendar sync.",
-      ],
+      highlights: [],
     },
   ],
 

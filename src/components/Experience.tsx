@@ -1,5 +1,5 @@
-import styles from './Experience.module.css';
-import { data } from '../data';
+import styles from "./Experience.module.css";
+import { data } from "../data";
 
 export default function Experience() {
   return (
@@ -39,7 +39,9 @@ export default function Experience() {
           <div className={styles.content}>
             <div className={styles.header}>
               <h3 className={styles.role}>{data.education.degree}</h3>
-              <span className={styles.company}>{data.education.institution}, {data.education.location}</span>
+              <span className={styles.company}>
+                {data.education.institution}, {data.education.location}
+              </span>
             </div>
             <p className={styles.cgpa}>CGPA: {data.education.cgpa}</p>
           </div>

@@ -1,0 +1,86 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 340px;
+}
+
+.avatarImg {
+  width: 280px;
+  height: 340px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50% 50% 40% 40%;
+  filter: drop-shadow(0 20px 60px rgba(232, 115, 74, 0.2));
+}
+
+.pill {
+  position: absolute;
+  background: #1c1c1c;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-family: monospace;
+  font-size: 7px;
+  line-height: 1.6;
+}
+
+.pillAccent {
+  border-color: rgba(232, 115, 74, 0.3);
+  white-space: nowrap;
+}
+
+.floatLeft {
+  left: -12px;
+  top: 110px;
+  animation: floatLeft 4s ease-in-out infinite;
+}
+
+.floatRight {
+  right: -16px;
+  top: 90px;
+  animation: floatRight 4.5s ease-in-out infinite;
+}
+
+.floatTop {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: floatTop 3.5s ease-in-out infinite;
+}
+
+.sparkle {
+  position: absolute;
+  font-size: 14px;
+}
+
+.sparkle1 {
+  left: 28px;
+  top: 60px;
+  color: #e8734a;
+  animation: sparkle 2.5s ease-in-out infinite;
+}
+
+.sparkle2 {
+  right: 18px;
+  bottom: 100px;
+  color: #6b9fff;
+  animation: sparkle 3s ease-in-out infinite 0.5s;
+}
+
+.sparkle3 {
+  right: 20px;
+  top: 50px;
+  color: #e8734a;
+  animation: sparkle 2s ease-in-out infinite 1s;
+}
+
+@media (max-width: 768px) {
+  .wrapper,
+  .avatarImg {
+    width: 220px;
+    height: 266px;
+  }
+}

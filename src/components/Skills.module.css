@@ -1,37 +1,39 @@
 .section {
-  padding: 6rem 2rem;
+  padding: 7rem 2rem;
+  background: var(--bg-card);
 }
 
 .inner {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .heading {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
   font-weight: 400;
   color: var(--text);
-  margin-bottom: 3rem;
-  letter-spacing: -0.01em;
+  margin-bottom: 3.5rem;
+  letter-spacing: -0.02em;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5rem 3rem;
-  margin-bottom: 3rem;
+  gap: 3rem 4rem;
+  margin-bottom: 3.5rem;
 }
 
-.group {}
+.group {
+}
 
 .category {
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 0.78rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-subtle);
-  margin-bottom: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 1rem;
 }
 
 .tags {
@@ -41,18 +43,23 @@
 }
 
 .tag {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: var(--text-muted);
-  background: var(--bg-card);
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
-  padding: 0.3rem 0.85rem;
+  padding: 0.35rem 0.9rem;
   border-radius: 999px;
-  transition: border-color 0.2s ease, color 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    background 0.2s ease;
+  font-weight: 400;
 }
 
 .tag:hover {
-  border-color: var(--accent);
+  border-color: rgba(232, 115, 74, 0.4);
   color: var(--accent);
+  background: var(--accent-light);
 }
 
 .interests {
@@ -66,9 +73,9 @@
 
 .interestsLabel {
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: var(--text-subtle);
 }
 
@@ -79,15 +86,21 @@
 }
 
 .interest {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-  background: var(--accent-light);
+  font-size: 0.88rem;
   color: var(--accent);
   font-weight: 400;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  background: var(--accent-light);
+  border: 1px solid rgba(232, 115, 74, 0.15);
 }
 
 @media (max-width: 640px) {
-  .grid { grid-template-columns: 1fr; gap: 2rem; }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .section {
+    padding: 5rem 1.25rem;
+  }
 }
