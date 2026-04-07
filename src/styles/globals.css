@@ -2,11 +2,11 @@
 
 :root {
   --bg: #0c0c0c;
-  --bg-card: #141414;
-  --bg-elevated: #1c1c1c;
-  --text: #f0ede8;
-  --text-muted: #a09d98;
-  --text-subtle: #6b6864;
+  --bg-card: #0c0c0c;
+  --bg-elevated: #141414;
+  --text: #ffffff;
+  --text-muted: #ffffff;
+  --text-subtle: #ffffff;
   --accent: #e8734a;
   --accent-light: rgba(232, 115, 74, 0.12);
   --accent-glow: rgba(232, 115, 74, 0.25);

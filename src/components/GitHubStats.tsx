@@ -35,11 +35,11 @@ export default function GitHubStats() {
           </div>
           <div className={styles.statNumbers}>
             <div className={styles.statItem}>
-              <span className={styles.statNum}>24</span>
+              <span className={styles.statNum}>25</span>
               <span className={styles.statLabel}>Repositories</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNum}>355</span>
+              <span className={styles.statNum}>375</span>
               <span className={styles.statLabel}>Contributions</span>
             </div>
             <div className={styles.statItem}>
