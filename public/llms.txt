@@ -1,4 +1,4 @@
-# Garvita Dalmia — Frontend Developer
+# Garvita Dalmia - Frontend Developer
 
 Frontend Developer specializing in React, Next.js, and TypeScript. B.Tech CSE student at Mahindra University, Hyderabad.
 

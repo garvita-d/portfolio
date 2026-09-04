@@ -79,7 +79,7 @@ export const data: Data = {
   name: "Garvita Dalmia",
   title: "Frontend Developer",
   tagline:
-    "Specializing in scalable, high-performance web applications using React, Next.js, and TypeScript.",
+    "Specializing in full-stack web applications using React, Next.js, TypeScript, and Node.js.",
   email: "garvitadalmia2004@gmail.com",
   phone: "+91 9550195466",
   linkedin: "https://linkedin.com/in/garvita-dalmia",
@@ -88,9 +88,9 @@ export const data: Data = {
   resumeUrl: "/GARVITA DALMIA RESUME.pdf",
 
   currentlyWorkingOn:
-    "Frontend Intern @ Analytics Quad4 — AntD styling, Recharts, React",
+    "Frontend Developer @ Analytics Quad4 - AntD styling, Recharts, React",
 
-  about: `I'm a final year Computer Science student at Mahindra University, Hyderabad, with hands-on experience building production-grade web applications. I care deeply about performance, clean code, and pixel-perfect UIs — from achieving 100/100 PageSpeed scores to building real-time analytics dashboards that reduced client reporting time by 40%.`,
+  about: `I'm a B.Tech graduate in Computer Science at Mahindra University, Hyderabad, with hands-on experience building production-grade web applications. I care deeply about performance, clean code, and pixel-perfect UIs - from achieving 100/100 PageSpeed scores to building real-time analytics dashboards that reduced client reporting time by 40%. Most recently, I built DevTrack end to end - a full-stack project and issue tracker with its own REST API, authentication, and role-based access control - to go deeper into the backend half of full-stack development.`,
 
   githubStats: {
     username: "garvita-d",
@@ -102,10 +102,11 @@ export const data: Data = {
   experience: [
     {
       company: "Analytics Quad4",
-      role: "Frontend Developer Intern",
-      period: "Feb 2026 – Present",
+      role: "Frontend Developer",
+      period: "Jul 2026 – Present",
       location: "Bangalore, India (In-office)",
       highlights: [
+        "Promoted to full-time Frontend Developer after a 4-month internship; retained ownership of the analytics dashboard and client-facing feature delivery.",
         "Engineered real-time analytics dashboard processing live booking data, reducing client reporting time by ~40% using React, Ant Design, Recharts, and dayjs.",
         "Built 6+ interactive data visualizations (revenue segmentation, booking trends), optimizing with useMemo and reducing re-renders by ~30%.",
         "Converted Figma designs into responsive, pixel-accurate UI using React hooks and reusable components.",
@@ -117,7 +118,7 @@ export const data: Data = {
       period: "Nov 2025 – Jan 2026",
       location: "Hyderabad, India (Remote)",
       highlights: [
-        "Delivered 6+ features across 2 production codebases (Next.js, TypeScript) — dark/light mode, About Us page, blog integration, footer redesign from Figma.",
+        "Delivered 6+ features across 2 production codebases (Next.js, TypeScript) - dark/light mode, About Us page, blog integration, footer redesign from Figma.",
         "Achieved 100/100 PageSpeed score across all Core Web Vitals by eliminating render-blocking resources and optimizing for Vercel deployment.",
         "Implemented full SEO infrastructure (robots.txt, llms.txt, sitemap.xml, RSS feeds, Open Graph, meta descriptions) and set up n8n automation, reducing manual effort by ~60%.",
         "Followed professional Git workflows: feature branching, PR creation with screen-recorded demos, and async collaboration via Discord.",
@@ -126,6 +127,34 @@ export const data: Data = {
   ],
 
   projects: [
+    {
+      name: "DevTrack – Full-Stack Issue Tracker",
+      period: "Aug – Sep 2026",
+      stack: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma",
+        "Ant Design",
+        "Recharts",
+        "JWT",
+      ],
+      github: "https://github.com/garvita-d/devtrack",
+      live: "https://devtrack-frontend-5fua.onrender.com",
+      image: "/screenshots/devtrack.png",
+      featured: true,
+      caseStudy: {
+        problem:
+          "Jira-style tools make you pick a project before you see anything - there's no single place that shows what actually needs your attention today, across everything you're on.",
+        solution:
+          "Built a full-stack platform end to end: a Node.js/Express/Prisma REST API with JWT auth (refresh-token rotation) and role-based access control, plus a React/TypeScript frontend led by 'My Day' - a cross-project view of everything assigned to you, with live status/priority charts built from your real workload.",
+        result:
+          "A tested (Jest/Supertest), documented (Swagger/OpenAPI), rate-limited, and logged (Pino) production API, plus a responsive React frontend - both deployed and talking to each other live.",
+      },
+      highlights: [],
+    },
     {
       name: "inFlow – Financial Dashboard",
       period: "March – April 2026",
@@ -143,16 +172,16 @@ export const data: Data = {
       featured: false,
       caseStudy: {
         problem:
-          "Needed a personal finance tool that was actually pleasant to use — most apps feel cluttered or require a backend to manage.",
+          "Needed a personal finance tool that was actually pleasant to use - most apps feel cluttered or require a backend to manage.",
         solution:
           "Built a full-stack dashboard using Supabase as a zero-backend BaaS: auth, PostgreSQL, and Row Level Security keep each user's data completely isolated without writing a single server function.",
         result:
-          "Clean, responsive UI with dark/light mode, Recharts visualisations, and CSV export — deployed on Vercel in under a minute.",
+          "Clean, responsive UI with dark/light mode, Recharts visualisations, and CSV export - deployed on Vercel in under a minute.",
       },
       highlights: [],
     },
     {
-      name: "Dalmia Hardware — Live Business Website",
+      name: "Dalmia Hardware - Live Business Website",
       period: "Dec 2025 – Jan 2026",
       stack: ["Next.js", "React", "TypeScript", "Google Analytics", "SEO"],
       github: "",
@@ -161,9 +190,9 @@ export const data: Data = {
       featured: false,
       caseStudy: {
         problem:
-          "A family-owned hardware store had no online presence — customers couldn't browse products, check prices, or find the shop without calling directly.",
+          "A family-owned hardware store had no online presence - customers couldn't browse products, check prices, or find the shop without calling directly.",
         solution:
-          "Built a production Next.js website from scratch with dynamic product listings, a full SEO stack (sitemap.xml, Open Graph, meta descriptions), and Google Analytics — sole developer with end-to-end ownership.",
+          "Built a production Next.js website from scratch with dynamic product listings, a full SEO stack (sitemap.xml, Open Graph, meta descriptions), and Google Analytics - sole developer with end-to-end ownership.",
         result:
           "Live at dalmiahardware.com with measurable traffic tracking in place, giving the business a professional storefront that works around the clock.",
       },
@@ -185,11 +214,11 @@ export const data: Data = {
       featured: false,
       caseStudy: {
         problem:
-          "My parents manage 12+ medications daily across multiple time slots — missed doses were a real risk and paper charts kept getting lost or ignored.",
+          "My parents manage 12+ medications daily across multiple time slots - missed doses were a real risk and paper charts kept getting lost or ignored.",
         solution:
           "Built a PWA with per-medication schedules, browser push notifications via the Web Notifications API, Google Calendar sync for automated reminders, and predictive low-stock alerts.",
         result:
-          "Zero missed doses since deployment. Installed on both parents' phones via Netlify — works offline, no app store needed.",
+          "Zero missed doses since deployment. Installed on both parents' phones via Netlify - works offline, no app store needed.",
       },
       highlights: [],
     },
@@ -219,6 +248,17 @@ export const data: Data = {
       "TanStack React Query",
       "Supabase (PostgreSQL)",
       "REST APIs",
+    ],
+    "Backend & Database": [
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma",
+      "JWT",
+      "RBAC",
+      "Jest",
+      "Supertest",
+      "Swagger/OpenAPI",
     ],
     "Visualization & ML": [
       "Recharts",
@@ -290,8 +330,8 @@ export const data: Data = {
     institution: "Mahindra University",
     location: "Hyderabad, Telangana",
     degree: "B.Tech in Computer Science and Engineering",
-    period: "Sept 2022 – Present",
-    cgpa: "7.4 / 10 (till 7th semester)",
+    period: "Sept 2022 – May 2026",
+    cgpa: "7.5 / 10",
   },
 
   interests: ["Painting", "Badminton", "Movies"],

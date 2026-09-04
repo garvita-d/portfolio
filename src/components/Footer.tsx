@@ -16,7 +16,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <span className={styles.copy}>
-            © {new Date().getFullYear()} Garvita Dalmia — Built with Next.js
+            © {new Date().getFullYear()} Garvita Dalmia - Built with Next.js
           </span>
           <div className={styles.links}>
             <a
